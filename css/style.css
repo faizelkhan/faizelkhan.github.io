@@ -1,0 +1,570 @@
+@charset "utf-8";
+/* Hare Krishna Hare Krishna Krishna Krishna Hare Hare Hare Ram Hare Ram Ram Ram Hare Hare*/
+
+@font-face{src:url(../font/Roboto-Regular.ttf);
+font-family:reg_font;
+}
+
+*{padding:0px;
+margin:0px;
+}
+
+body{font-size:16px;
+color:#1e1e1e;
+font-family:reg_font, Arial, Helvetica, sans-serif;
+}
+
+.cmn_div{width:100%;
+float:left;
+height:auto;
+}
+
+.bg_div{width:100%;
+height:100%;
+z-index:-50;
+position:fixed;
+background-image:url(../images/bg.jpg);
+background-size:cover;
+}
+
+img a{border:none;
+}
+
+.header_bg{background:#202020;
+}
+
+.header{width:80%;
+float:left;
+height:auto;
+margin:10px 10% 20px 10%;
+}
+
+.header img{width:100%;
+float:left;
+height:auto;
+}
+
+.header_opt{position:absolute;
+display:block;
+background:#00abd6;
+color:#f5f5f5;
+padding:20px;
+font-weight:bold;
+}
+
+.lit_des{width:80%;
+float:left;
+height:auto;
+margin:250px 10%;
+text-align:center;
+}
+
+.lit_des h2{color:#e1e1e1;
+font-size:35px;
+font-weight:bold;
+}
+
+.lit_des h3{color:#e1e1e1;
+font-size:18px;
+font-weight:normal;
+}
+
+.about_div{background:#202020;
+}
+
+.about_me{width:70%;
+float:left;
+height:auto;
+margin:100px 15%;
+}
+
+.about_me h2{width:100%;
+float:left;
+height:auto;
+margin-bottom:20px;
+font-size:40px;
+color:#b1b1b1;
+text-align:center;
+}
+
+.about_me p{width:100%;
+float:left;
+height:auto;
+margin:5px 0;
+font-size:16px;
+line-height:22px;
+color:#b1b1b1;
+}
+
+.cover_about{width:80%;
+float:left;
+height:auto;
+margin:0 10%;
+}
+
+.about_me img{width:30%;
+float:left;
+height:auto;
+margin-right:2%;
+border-radius:50%;
+}
+
+.my_skill_div{width:80%;
+float:left;
+height:auto;
+margin:100px 10%;
+}
+
+.my_skill_div h2{width:100%:
+float:left;
+font-size:40px;
+height:auto;
+color:#6ed1ff;
+text-align:center;
+margin-bottom:20px;
+}
+
+.skill_list{margin-top:40px;
+}
+
+.skill_list img{width:18%;
+float:left;
+height:auto;
+margin:10px 1%;
+transition:0.15s all ease-in-out;
+}
+
+.skill_list img:hover{transform:translateY(-20px);
+}
+
+.history_div{background:#202020;
+}
+
+.history_cont{width:80%;
+float:left;
+height:auto;
+margin:100px 10%;
+}
+
+.history_cont h2{width:100%;
+float:left;
+height:auto;
+margin-bottom:20px;
+color:#b1b1b1;
+font-size:35px;
+text-align:center;
+}
+
+.hist_det{margin:30px 0;
+border-bottom:1px solid #cacaca;
+padding-bottom:40px;
+}
+
+.hist_det_lft{width:30%;
+float:left;
+height:auto;
+margin:0px;
+padding:20px 5%
+}
+
+.hist_det_l_st{
+float:right;
+height:auto;
+font-size:14px;
+color:#adadad;
+text-align:center;
+}
+
+.hist_det_l_st p1{
+float:left;
+font-size:40px;
+color:#b1b1b1;
+font-weight:bold;
+text-align:right;
+}
+
+.hist_det_r_st{
+float:right;
+height:auto;
+margin-left:10px;
+font-size:14px;
+text-align:center;
+color:#00aeef;
+}
+
+.hist_det_r_st p1{
+float:left;
+font-size:40px;
+text-align:left;
+font-weight:bold;
+color:#00aeef;
+}
+
+.hist_det_prod{border-top:1px solid #c0c0c0;
+padding-top:30px;
+margin-top:20px;
+}
+
+.hist_det_prod p2{width:100%;
+float:left;
+height:auto;
+color:#00a3e0;
+font-size:22px;
+text-align:right;
+}
+
+.hist_det_rgt{width:50%;
+float:left;
+height:auto;
+-webkit-box-shadow:inset 1px 0px 0px 0px #cacaca;
+-moz-box-shadow:inset 1px 0px 0px 0px #cacaca;
+box-shadow:inset 1px 0px 0px 0px #cacaca;
+padding:20px 5%;
+}
+
+.hist_det_rgt h2{width:100%;
+float:left;
+height:auto;
+color:#00a3e0;
+font-size:22px;
+margin-bottom:30px;
+text-align:left;
+}
+
+.hist_det_rgt p{width:100%;
+float:left;
+height:auto;
+color:#b1b1b1;
+text-align:left;
+font-size:16px;
+line-height:22px;
+}
+
+.portfolio_header{width:100%;
+height:auto;
+padding:50px 0;
+text-align:center;
+background:#b92300;
+float:left;
+color:#f5f6f7;
+font-size:35px;
+font-weight:bold;
+}
+
+.portfolio_box{width:50%;
+float:left;
+background:#2d2d2d;
+}
+
+.portfolio_box img{width:100%;
+float:left;
+transition:0.15s all ease-in;
+height:auto;
+}
+
+.portfolio_box img:hover{opacity:0.2;
+cursor:pointer;
+}
+
+.portfolio_fot{width:100%;
+height:auto;
+padding:25px 0;
+float:left;
+text-align:center;
+background:#004069;
+color:#f5f6f7;
+font-size:30px;
+transition:0.2s all ease-in;
+font-weight:bold;
+border-bottom:10px solid #272727;
+}
+
+.portfolio_fot:hover{background:#002740;
+cursor:pointer;
+}
+
+.footer{background-image:url(../images/footer_bg.jpg);
+background-size:cover;
+}
+
+.footer_div{width:100%;
+float:left;
+height:auto;
+margin:90px 0%;
+}
+
+.footer_cont{width:50%;
+float:right;
+height:auto;
+background:url(../images/fot_bg.png) repeat;
+padding:10px 3% 20px 3%;
+}
+
+.footer_cont h2{width:100%;
+float:left;
+height:auto;
+margin:20px 0;
+font-size:70px;
+color:#b3b3b3;
+text-align:left;
+}
+
+.footer_cont p{width:100%;
+float:left;
+height:auto;
+font-size:16px;
+color:#f8f8f8;
+line-height:50px;
+margin:10px 0;
+font-weight:bold;
+}
+
+.footer_img{width:auto;
+height:50px;
+float:left;
+margin-right:20px;
+}
+
+.copy_div{background:#141414;
+}
+
+.copy_cont{width:70%;
+float:left;
+height:auto;
+margin:15px 15%;
+text-align:right;
+color:#929292;
+}
+
+@media only screen and (min-width:992px) and (max-width:1200px){
+	.footer_cont{width:70%;
+float:right;
+height:auto;
+background:url(../images/fot_bg.png) repeat;
+padding:10px 3% 20px 3%;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:992px){
+.header{width:90%;
+margin:10px 5% 20px 5%;
+}
+
+.lit_des{
+margin:230px 10%;
+}
+
+.about_me{width:80%;
+margin:100px 10%;
+}
+
+.cover_about{width:90%;
+margin:0 5%;
+}
+
+.about_me img{width:40%;
+}
+
+.skill_list img{width:23%;
+}
+
+.skill_list img:hover{transform:translateY(-20px);
+}
+
+.hist_det_lft{width:100%;
+padding:20px 0%
+}
+
+.hist_det_prod{border-top:1px solid #c0c0c0;
+padding-top:30px;
+margin-top:20px;
+}
+
+.hist_det_prod p2{width:100%
+}
+
+.hist_det_rgt{width:100%;
+-webkit-box-shadow:inset 0px 0px 0px 0px #cacaca;
+-moz-box-shadow:inset 0px 0px 0px 0px #cacaca;
+box-shadow:inset 0px 0px 0px 0px #cacaca;
+border-bottom:1px solid #c0c0c0;
+padding:20px 0;
+}
+
+.footer_cont{width:94%;
+
+}
+
+.footer_cont h2{width:100%;
+float:left;
+height:auto;
+margin:20px 0;
+font-size:70px;
+color:#b3b3b3;
+text-align:left;
+}
+
+.footer_cont p{width:100%;
+float:left;
+height:auto;
+font-size:16px;
+color:#f8f8f8;
+line-height:50px;
+margin:10px 0;
+font-weight:bold;
+}
+
+.footer_img{width:auto;
+height:50px;
+float:left;
+margin-right:20px;
+}
+
+.copy_div{background:#141414;
+}
+
+.copy_cont{width:70%;
+float:left;
+height:auto;
+margin:15px 15%;
+text-align:right;
+color:#929292;
+}
+}
+
+@media only screen and (min-width:100px) and (max-width:768px){
+	
+.header{width:95%;
+float:left;
+height:auto;
+margin:10px 2.5% 20px 2.5%;
+}
+
+.header_opt{position:absolute;
+display:block;
+background:#00abd6;
+color:#f5f5f5;
+padding:10px;
+margin-top:10px;
+font-weight:bold;
+}
+
+.lit_des{width:90%;
+margin:200px 5%;
+}
+
+.lit_des h2{
+font-size:24px;
+}
+
+.about_me{width:90%;
+margin:100px 5%;
+}
+
+.cover_about{width:90%;
+margin:0 5%;
+}
+
+.about_me img{width:70%;
+margin-right:15%;
+margin-left:15%;
+margin-bottom:10px;
+border-radius:50%;
+}
+
+.my_skill_div h2{
+font-size:36px;
+}
+
+.skill_list img{width:40%;
+margin:20px 5%;
+}
+
+.history_cont{width:90%;
+margin:100px 5%;
+}
+
+.history_cont h2{
+font-size:30px;
+}
+
+.hist_det_lft{width:100%;
+padding:20px 0%
+}
+
+.hist_det_prod{border-top:1px solid #c0c0c0;
+padding-top:30px;
+margin-top:20px;
+}
+
+.hist_det_prod p2{width:100%
+}
+
+.hist_det_rgt{width:100%;
+-webkit-box-shadow:inset 0px 0px 0px 0px #cacaca;
+-moz-box-shadow:inset 0px 0px 0px 0px #cacaca;
+box-shadow:inset 0px 0px 0px 0px #cacaca;
+border-bottom:1px solid #c0c0c0;
+padding:20px 0;
+}
+
+.portfolio_header{
+padding:30px 0;
+font-size:30px;
+}
+
+.portfolio_box{width:100%;
+}
+
+.portfolio_fot{
+font-size:26px;
+}
+
+
+.footer_div{width:100%;
+float:left;
+height:auto;
+margin:90px 0%;
+}
+
+.footer_cont{width:95%;
+padding:10px 2.5% 20px 2.5%;
+}
+
+.footer_cont h2{width:100%;
+float:left;
+height:auto;
+margin:20px 0;
+font-size:56px;
+color:#b3b3b3;
+text-align:left;
+}
+
+.footer_cont p{width:100%;
+float:left;
+height:auto;
+font-size:16px;
+color:#f8f8f8;
+line-height:50px;
+margin:10px 0;
+font-weight:bold;
+}
+
+.footer_img{width:auto;
+height:50px;
+float:left;
+margin-right:20px;
+}
+
+.copy_div{background:#141414;
+}
+
+.copy_cont{width:70%;
+float:left;
+height:auto;
+margin:15px 15%;
+text-align:right;
+color:#929292;
+}
+
+	}
