@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+body{
+  background: #fff;
+  color: #212121;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+.cmn{
+  float: left;
+  height: auto;
+}
+
+.cmndiv{
+  width: 100%;
+  float: left;
+  height: auto;
+}
+
+.websiteContainer{
+  width: 70%;
+  margin: 0 15%;
+}
+
+.topBlackBox{
+  width: 200px;
+  height: 50px;
+  background: #212121;
+  margin-bottom: 15px;
+}
+
+h1{
+  width: 100%;
+  float: left;
+  height: auto;
+  font-size: 70px;
+  margin: 20px 0 5px 0;
+  font-weight: normal;
+}
+
+h2{
+  width: 100%;
+  float: left;
+  height: auto;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.websiteBody{
+  margin: 35px 0;
+}
+
+.leftDiv{
+  width: 35%;
+  margin-right: 5%;
+  padding-bottom: 30px;
+  background: #212121;
+}
+
+.devPic{
+  width: 100%;
+  float: left;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+.leftDivCont{
+  width: 80%;
+  margin: 0 10%;
+}
+
+.leftDiv h3{
+  font-size: 30px;
+  color: #e5e5e5;
+  margin: 10px 0 20px 0;
+  width: 100%;
+  float: left;
+  font-weight: normal;
+}
+
+.leftDiv p{
+  color: #bcbcbc;
+  line-height: 26px;
+  font-size: 16px;
+  width: 100%;
+  float: left;
+}
+
+.leftDivCont > .divider{
+  margin: 40px 0;
+  border-bottom: 2px solid #e5e5e5;
+}
+
+.leftDivCont > p1{
+  color: #9b9b9b;
+  width: 100%;
+  float: left;
+  height: auto;
+  margin-bottom:30px;
+  font-size: 14px;
+}
+
+.rightDiv{
+  width: 60%;
+}
+
+.qualBox{
+  outline: 1px solid #bebebe;
+  width: 90%;
+  padding: 20px 5%;
+  margin-bottom: 30px;
+}
+
+.qualBox h3{
+  width: 100%;
+  float: left;
+  height: auto;
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  border-bottom: 1px solid #bebebe;
+  padding-bottom: 15px;
+}
+
+.qualCont{
+  margin-bottom: 20px;
+}
+
+.qualCont > h4{
+  font-weight: bold;
+  font-size: 18px;
+  float: left;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.qualCont > p1{
+  font-size: 14px;
+  color: #9d9d9d;
+  float: left;
+  width: 100%;
+  margin-bottom: 7px;
+}
+
+.qualCont > p{
+  font-size: 14px;
+  line-height: 26px;
+  float: left;
+  width: 100%;
+}
+
+.skillBox{
+  padding: 8px;
+  background: #212121;
+  margin: 5px 5px 5px 0;
+  color: #f3f3f3;
+  font-size: 14px;
+  display: inline-block;
+}
+
+.leftInBox{
+  float:left;
+  width:25%;
+  margin-right: 5%;
+}
+
+.rightInBox{
+  float:left;
+  width:70%;
+
+}
+li{
+margin: 5% 0;
+}
