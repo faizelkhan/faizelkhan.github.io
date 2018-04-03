@@ -42,6 +42,7 @@ body{
   height: 50px;
   background: #212121;
   margin-bottom: 15px;
+  box-shadow: 0px 0px 3px 0px;
 }
 
 h1{
@@ -70,6 +71,7 @@ h2{
   margin-right: 5%;
   padding-bottom: 30px;
   background: #212121;
+  box-shadow: 0px 0px 3px 0px;
 }
 
 .devPic{
@@ -105,7 +107,8 @@ h2{
   margin: 40px 0;
   border-bottom: 2px solid #e5e5e5;
 }
-edu{
+
+.eduCont{
   color: #212121;
   width: 100%;
   float: left;
@@ -114,6 +117,9 @@ edu{
   font-size: 16px;
 }
 
+.eduCont span{
+  font-weight: bold;
+} 
 .leftDivCont > p1{
   color: #9b9b9b;
   width: 100%;
@@ -132,6 +138,7 @@ edu{
   width: 90%;
   padding: 20px 5%;
   margin-bottom: 30px;
+  box-shadow: 0px 0px 3px 0px;
 }
 
 .qualBox h3{
@@ -143,6 +150,7 @@ edu{
   font-weight: normal;
   border-bottom: 1px solid #bebebe;
   padding-bottom: 15px;
+ 
 }
 
 .qualCont{
