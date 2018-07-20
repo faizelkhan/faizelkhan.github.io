@@ -134,7 +134,7 @@ h2{
 }
 
 .qualBox{
-  outline: 1px solid #bebebe;
+  /*outline: 1px solid #bebebe;*/
   width: 90%;
   padding: 20px 5%;
   margin-bottom: 30px;
