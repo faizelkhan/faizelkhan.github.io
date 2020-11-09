@@ -33,8 +33,8 @@ body{
 }
 
 .websiteContainer{
-  width: 70%;
-  margin: 0 15%;
+  width: 80%;
+  margin: 0 10%;
 }
 
 .topBlackBox{
@@ -135,7 +135,7 @@ h2{
 
 .qualBox{
   /*outline: 1px solid #bebebe;*/
-  width: 90%;
+  width: 100%;
   padding: 20px 5%;
   margin-bottom: 30px;
   box-shadow: 0px 0px 4px 1px #5d575726;
