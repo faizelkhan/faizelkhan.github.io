@@ -146,6 +146,7 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 	.ds-experience-list section{ padding-right: 0; }
 	.ds-work-list{ padding: 30px; }
 	.ds-work-list p{font-size: 15px; line-height: 30px;}
+	.ds-ulist{font-size: 15px; line-height: 30px;}
 	.ds-footer{ padding: 60px 10px; }
 	.ds-footer section h4{ font-size: 40px; }
 	.ds-copyright{ font-size: 14px; }
